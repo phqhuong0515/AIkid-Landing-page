@@ -2112,25 +2112,25 @@ ol {
   background: var(--color-primary);
 }
 
-/* Màu chuyển dần tím → cam theo từng ô */
+/* Màu chuyển dần từ xanh #0D4F7E → hồng #FF5C8A → cam #FF8E53 theo từng ô */
 .faq__item:nth-child(1) .faq__icon-wrap {
-  background: #7C3AED;
+  background: #0D4F7E;
 }
 
 .faq__item:nth-child(2) .faq__icon-wrap {
-  background: #A63DBF;
+  background: #8755A4;
 }
 
 .faq__item:nth-child(3) .faq__icon-wrap {
-  background: #C8458A;
+  background: #FF5C8A;
 }
 
 .faq__item:nth-child(4) .faq__icon-wrap {
-  background: #E85B40;
+  background: #FF756E;
 }
 
 .faq__item:nth-child(5) .faq__icon-wrap {
-  background: #F97316;
+  background: #FF8E53;
 }
 
 .faq__icon {
