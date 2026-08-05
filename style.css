@@ -820,12 +820,12 @@ ol {
   font-size: 1.625rem;
   font-weight: 900;
   line-height: 1.1;
-  color: #0D4F7E;
+  color: #239FB9;
 }
 
-/* Solid color theo thứ tự: xanh #0D4F7E → hồng #FF5C8A → cam #FF8E53 */
+/* Solid color theo thứ tự: xanh #239FB9 → hồng #FF5C8A → cam #FF8E53 */
 .trust__item:nth-child(1) .trust__number {
-  color: #0D4F7E;
+  color: #239FB9;
 }
 
 .trust__item:nth-child(3) .trust__number {
@@ -2117,9 +2117,9 @@ ol {
   background: var(--color-primary);
 }
 
-/* Màu chuyển dần từ xanh #0D4F7E → hồng #FF5C8A → cam #FF8E53 theo từng ô */
+/* Màu chuyển dần từ xanh #239FB9 → hồng #FF5C8A → cam #FF8E53 theo từng ô */
 .faq__item:nth-child(1) .faq__icon-wrap {
-  background: #0D4F7E;
+  background: #239FB9;
 }
 
 .faq__item:nth-child(2) .faq__icon-wrap {
