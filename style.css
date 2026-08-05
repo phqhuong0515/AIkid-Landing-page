@@ -2019,7 +2019,7 @@ ol {
    ============================================ */
 .faq {
   padding: var(--section-py) 0;
-  background: linear-gradient(180deg, #FFF3EB 0%, #FFF8F3 40%, #FFF1E8 100%);
+  background: #FFF3EB;
 }
 
 .faq__list {
