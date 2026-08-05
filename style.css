@@ -818,16 +818,16 @@ ol {
   font-size: 1.625rem;
   font-weight: 900;
   line-height: 1.1;
-  color: #7843E2;
+  color: #0D4F7E;
 }
 
-/* Solid color theo thứ tự: tím → hồng tím → hồng → cam */
+/* Solid color theo thứ tự: xanh #0D4F7E → hồng #FF5C8A → cam #FF8E53 */
 .trust__item:nth-child(1) .trust__number {
-  color: #7843E2;
+  color: #0D4F7E;
 }
 
 .trust__item:nth-child(3) .trust__number {
-  color: #B5469A;
+  color: #8755A4;
 }
 
 .trust__item:nth-child(5) .trust__number {
@@ -847,7 +847,7 @@ ol {
 .trust__divider {
   display: none;
   width: 1px;
-  background: linear-gradient(to bottom, transparent, #d4c8f5 20%, #d4c8f5 80%, transparent);
+  background: linear-gradient(to bottom, transparent, #e2e8f0 20%, #e2e8f0 80%, transparent);
   flex-shrink: 0;
   align-self: stretch;
   margin: 0.5rem 0;
