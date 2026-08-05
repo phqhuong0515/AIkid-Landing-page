@@ -1005,8 +1005,8 @@ ol {
 }
 
 .roles__col--child {
-  background: linear-gradient(135deg, var(--clr-purple-50), var(--clr-purple-100));
-  border: 2px solid var(--clr-purple-200);
+  background: linear-gradient(135deg, #fff5ee, #ffe6d8);
+  border: 2px solid #ffd0b8;
 }
 
 .roles__col--ai {
@@ -1045,7 +1045,7 @@ ol {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color: #e65c19;
   flex-shrink: 0;
   margin-right: 0.5rem;
 }
@@ -1070,7 +1070,7 @@ ol {
 }
 
 .roles__col--child .roles__list li {
-  color: #7843E2;
+  color: #e65c19;
 }
 
 .roles__col--ai .roles__list li {
