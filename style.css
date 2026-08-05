@@ -1127,6 +1127,17 @@ ol {
   text-align: center;
 }
 
+#roles-detail-link,
+.roles__link-wrap .link-arrow {
+  color: #FF7043;
+  font-weight: 700;
+}
+
+#roles-detail-link:hover,
+.roles__link-wrap .link-arrow:hover {
+  color: #E65100;
+}
+
 @media (min-width: 768px) {
   .roles__grid {
     grid-template-columns: 1fr auto 1fr;
