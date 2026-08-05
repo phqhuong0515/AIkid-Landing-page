@@ -2366,7 +2366,9 @@ ol {
 }
 
 .footer__brand .logo-img {
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+  height: 52px;
+  width: auto;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
 }
 
 .footer__tagline {
