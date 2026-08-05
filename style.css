@@ -1273,9 +1273,13 @@ ol {
   color: #ffffff;
 }
 
-/* Images inside cards — hidden, using placeholder instead */
+/* Images inside cards */
 .draft-card__img {
-  display: none;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 0.625rem;
 }
 
 /* Placeholder frame inside draft-card wraps */
@@ -2089,11 +2093,11 @@ ol {
 }
 
 .faq__question:hover {
-  color: var(--color-primary);
+  color: #FF5C8A;
 }
 
 .faq__item--open .faq__question {
-  color: var(--color-primary);
+  color: #FF5C8A;
 }
 
 .faq__icon-wrap {
@@ -2161,6 +2165,17 @@ ol {
 
 .faq__footer {
   text-align: center;
+}
+
+#faq-see-all-link,
+.faq__footer .link-arrow {
+  color: #FF5C8A;
+  font-weight: 700;
+}
+
+#faq-see-all-link:hover,
+.faq__footer .link-arrow:hover {
+  color: #FF477E;
 }
 
 /* ============================================
@@ -2327,16 +2342,16 @@ ol {
 .cta-form__submit {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
-  background: #0a70e2;
+  background: linear-gradient(135deg, #FF8E53 0%, #FF7043 100%);
   color: #ffffff;
   border: none;
-  box-shadow: 0 4px 16px rgba(10, 112, 226, 0.35);
+  box-shadow: 0 4px 16px rgba(255, 112, 67, 0.35);
 }
 
 .cta-form__submit:hover {
-  background: #0860c4;
+  background: linear-gradient(135deg, #ff7e3d 0%, #e65100 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(10, 112, 226, 0.45);
+  box-shadow: 0 8px 24px rgba(255, 112, 67, 0.45);
 }
 
 .cta-form__note {
@@ -2454,7 +2469,7 @@ ol {
 .footer__bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1.25rem 0;
-  background: linear-gradient(90deg, #FF8E53 0%, #FF7043 50%, #FF8E53 100%);
+  background: #0D4F7E;
 }
 
 .footer__bottom p {
