@@ -165,16 +165,16 @@ ol {
 }
 
 .btn-primary {
-  background: #FF5C8A;
+  background: linear-gradient(135deg, #FF8E53 0%, #FF7043 100%);
   color: #fff;
   border: none;
-  box-shadow: 0 4px 16px rgba(255, 92, 138, .35);
+  box-shadow: 0 4px 16px rgba(255, 112, 67, 0.38);
 }
 
 .btn-primary:hover {
-  background: #FF477E;
+  background: linear-gradient(135deg, #FF7043 0%, #FF5722 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 92, 138, .45);
+  box-shadow: 0 8px 24px rgba(255, 112, 67, 0.48);
 }
 
 .btn-primary:active {
@@ -182,38 +182,40 @@ ol {
 }
 
 .btn-ghost {
-  background: rgba(255, 255, 255, 0.7);
-  color: #FF5C8A;
+  background: rgba(255, 255, 255, 0.85);
+  color: #FF7043;
   border: 2.4px solid #E5D9CE;
 }
 
 .btn-ghost:hover {
-  background: #FFEAF2;
-  border-color: #FF5C8A;
+  background: #FFF3EB;
+  border-color: #FF8E53;
+  color: #E65100;
   transform: translateY(-2px);
 }
 
 .btn-outline {
   background: transparent;
-  color: #FF5C8A;
-  border: 2px solid #FF5C8A;
+  color: #FF7043;
+  border: 2px solid #FF8E53;
 }
 
 .btn-outline:hover {
-  background: #FFEAF2;
+  background: #FFF3EB;
+  color: #E65100;
   transform: translateY(-2px);
 }
 
 #gallery-see-all {
-  background: #FF5C8A;
+  background: linear-gradient(135deg, #FF8E53 0%, #FF7043 100%);
   color: #ffffff;
   border: none;
 }
 
 #gallery-see-all:hover {
-  background: #FF477E;
+  background: linear-gradient(135deg, #FF7043 0%, #FF5722 100%);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 92, 138, 0.35);
+  box-shadow: 0 6px 20px rgba(255, 112, 67, 0.38);
 }
 
 /* ---- BADGES ---- */
