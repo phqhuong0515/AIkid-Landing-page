@@ -1279,14 +1279,15 @@ ol {
 }
 
 /* Placeholder frame inside draft-card wraps */
-.draft-card__placeholder-frame {
+.draft-card__placeholder {
   width: 100%;
   aspect-ratio: 1;
-  background: #F3F4F6;
+  background: var(--clr-gray-100);
   border-radius: 0.625rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 2.5rem;
 }
 
 /* Curved arrow SVG */
@@ -1466,7 +1467,7 @@ ol {
 
 .gallery-card__quote {
   font-size: 0.9375rem;
-  color: var(--clr-purple-700);
+  color: #8C6F65;
   font-style: italic;
   line-height: 1.6;
 }
