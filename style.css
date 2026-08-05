@@ -1172,6 +1172,17 @@ ol {
   max-width: 520px;
 }
 
+#drafts-process-link,
+.drafts__footer .link-arrow {
+  color: #D81B60;
+  font-weight: 700;
+}
+
+#drafts-process-link:hover,
+.drafts__footer .link-arrow:hover {
+  color: #AD1457;
+}
+
 @media (max-width: 640px) {
   .drafts__grid {
     grid-template-columns: 1fr;
@@ -1221,7 +1232,7 @@ ol {
   width: 56%;
   background: #ffffff;
   border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.10), 0 1px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 20px rgba(255, 92, 138, 0.18), 0 1px 6px rgba(0, 0, 0, 0.06);
   transform: rotate(-5deg);
   z-index: 1;
   padding: 10px 10px 8px;
@@ -1235,7 +1246,7 @@ ol {
   width: 56%;
   background: #ffffff;
   border-radius: 1rem;
-  box-shadow: 0 8px 32px rgba(120, 67, 226, 0.18), 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 32px rgba(255, 92, 138, 0.28), 0 3px 10px rgba(255, 92, 138, 0.12);
   transform: rotate(4deg);
   z-index: 2;
   padding: 10px 10px 8px;
