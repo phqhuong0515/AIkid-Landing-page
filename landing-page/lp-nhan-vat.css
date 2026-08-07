@@ -381,7 +381,7 @@ ol {
   position: relative;
   padding-top: 130px;
   padding-bottom: 5rem;
-  background: url('SVG/5.svg') no-repeat center center;
+  background: url('../SVG/5.svg') no-repeat center center;
   background-size: cover;
   overflow: hidden;
   min-height: 100svh;
@@ -1456,7 +1456,7 @@ ol {
    ============================================ */
 .lp-signup {
   padding: 11rem 0;
-  background: linear-gradient(180deg, rgba(255, 92, 138, 1) 0%, rgba(255, 92, 138, 0) 100%), url('SVG/3.svg') no-repeat center center / cover;
+  background: linear-gradient(180deg, rgba(255, 92, 138, 1) 0%, rgba(255, 92, 138, 0) 100%), url('../SVG/3.svg') no-repeat center center / cover;
   position: relative;
   overflow: hidden;
 }
@@ -1966,7 +1966,7 @@ ol {
    ============================================ */
 .lp-cta-final {
   padding: calc(var(--section-py) + 1.5rem) 0;
-  background: url('SVG/Artboard 1.svg') no-repeat center center / cover;
+  background: url('../SVG/Artboard 1.svg') no-repeat center center / cover;
   text-align: center;
   position: relative;
   overflow: hidden;
